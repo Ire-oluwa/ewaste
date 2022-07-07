@@ -85,7 +85,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                     });
                   },
                   formatInput: [
-                    FilteringTextInputFormatter(RegExp(r'[a-zA-Z]'),
+                    FilteringTextInputFormatter(RegExp(r'[a-zA-Z ]'),
                         allow: true)
                   ],
                 ),
